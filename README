@@ -1,0 +1,56 @@
+perl-Text-Glob
+------------------------------------------
+Text::Glob implements glob(3) style matching that can be used to match 
+against text, rather than fetching names from a filesystem. If you want 
+to do full file globbing use the File::Glob module instead.
+
+Runtime requirements:
+  perl-5.10.0-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/Text-Glob/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/R/RC/RCLAMP/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Text-Glob-0.08-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Text-Glob-0.08-X.cygport all
+
+This will create:
+  /usr/src/perl-Text-Glob-0.08-X-src.tar.bz2
+  /usr/src/perl-Text-Glob-0.08-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/Text/Glob.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Text/Glob/.packlist
+  /usr/share/doc/perl-Text-Glob-0.08/Changes
+  /usr/share/doc/perl-Text-Glob-0.08/README
+  /usr/share/man/man3/Text.Glob.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.08-1 -----
+Version bump, built for perl-5.10.
+
+----- version 0.06-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
