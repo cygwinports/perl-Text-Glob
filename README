@@ -5,12 +5,12 @@ against text, rather than fetching names from a filesystem. If you want
 to do full file globbing use the File::Glob module instead.
 
 Runtime requirements:
-  perl-5.10.0-3
+  perl-5.10.0-5
 
 Build requirements:
-(besides corresponding -devel packages)
-  cygport-0.3.9-1
-  make-3.81-1
+  cygport-0.9.9-1
+  make-3.81-2
+  perl-5.10.0-5
 
 Canonical website:
   http://search.cpan.org/dist/Text-Glob/
@@ -33,23 +33,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/perl5/vendor_perl/5.10/Text/Glob.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Text/Glob/.packlist
-  /usr/share/doc/perl-Text-Glob-0.08/Changes
-  /usr/share/doc/perl-Text-Glob-0.08/README
-  /usr/share/man/man3/Text.Glob.3pm.gz
-
-------------------
-
 Port Notes:
 
------ version 0.08-1 -----
-Version bump, built for perl-5.10.
-
------ version 0.06-1 -----
-Initial release for Cygwin.
+----- version 0.08-2 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
