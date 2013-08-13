@@ -1,0 +1,11 @@
+CPAN_AUTHOR=rclamp
+inherit perl
+
+NAME="perl-Text-Glob"
+VERSION=0.09
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl text globbing module"
+DESCRIPTION="Text::Glob implements glob(3) style matching that can be used to
+match against text, rather than fetching names from a filesystem. If you want
+to do full file globbing use the File::Glob module instead."
